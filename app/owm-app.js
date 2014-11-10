@@ -1,14 +1,5 @@
-var OWMapp = angular.module('OWMapp', ['ngRoute']);
+angular.module('OWMapp', ['ngRoute', 'ngAnimate']);
 
-OWMapp.config(function($routeProvider) {
-		$routeProvider.when('/', {
-			templateURL: './home.html',
-			controller: 'HomeCtrl'
-		});
-
-OWMapp.controller('HomeCtrl', function($scope) {
-		$scope.test = 'home controller test';
-	});
 
 // var OWMapp = angular.module('OWMapp', ['ngRoute']);
 
